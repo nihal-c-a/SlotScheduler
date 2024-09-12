@@ -1,0 +1,25 @@
+﻿@model JP_Premium_WashMachineScheduler.Models.Tenant
+
+@{
+    ViewData["Title"] = "Tenant Details";
+}
+
+<div class="d-flex justify-content-center  min-vh-100">
+    <div class="text-center">
+        <h1>@ViewData["Title"]</h1>
+        <div class="card shadow-sm p-4">
+            <h4 class="card-title mb-3">@Model.Name</h4>
+            <dl class="row">
+                <dt class="col-sm-4">Phone Number</dt>
+                <dd class="col-sm-8">@Model.PhoneNumber</dd>
+                <dt class="col-sm-4">Room Number</dt>
+                <dd class="col-sm-8">@Model.RoomNumber</dd>
+            </dl>
+            <div class="d-flex justify-content-between">
+                <a href="@Url.Action("Index", "Tenant")" class="btn btn-dark btn-sm">Back </a>
+                <a href="@Url.Action("Edit", "Tenant", new { id = Model.TenantId })" class="btn btn-outline-primary btn-sm">Edit</a>
+               
+            </div>
+        </div>
+    </div>
+</div>

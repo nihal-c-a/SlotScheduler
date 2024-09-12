@@ -1,0 +1,37 @@
+﻿@model JP_Premium_WashMachineScheduler.ViewModel.TenantViewModel
+
+@{
+    ViewData["Title"] = "Delete Tenant";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="card shadow-sm p-3 p-md-4">
+        <div class="card-body">
+            <h3 class="text-center mb-4">Are you sure you want to delete this tenant?</h3>
+            <div class="text-center mb-4">
+                <h4>@Model.Name</h4>
+            </div>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-12 col-sm-3 col-md-2">Name</dt>
+                <dd class="col-12 col-sm-9 col-md-10">@Model.Name</dd>
+                <dt class="col-12 col-sm-3 col-md-2">Phone Number</dt>
+                <dd class="col-12 col-sm-9 col-md-10">@Model.PhoneNumber</dd>
+                <dt class="col-12 col-sm-3 col-md-2">Room Number</dt>
+                <dd class="col-12 col-sm-9 col-md-10">@Model.RoomNumber</dd>
+            </dl>
+
+            <div class="d-flex flex-column flex-md-row justify-content-center mt-4">
+                <form asp-action="Delete" method="post" class="me-md-2">
+                    <a asp-action="Index" class="btn btn-secondary mt-2 mt-md-0">Cancel</a>
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>

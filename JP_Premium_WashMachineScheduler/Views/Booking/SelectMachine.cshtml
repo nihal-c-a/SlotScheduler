@@ -1,0 +1,38 @@
+﻿@model JP_Premium_WashMachineScheduler.Models.SelectMachineViewModel
+
+@{
+    ViewData["Title"] = "Select Washing Machine";
+}
+
+<h2>Select a Washing Machine</h2>
+
+<!-- Back Button -->
+<div class="mb-3">
+    <a href="@Url.Action("SelectDay","Booking")" class="btn btn-dark">
+        <i class="bi bi-arrow-left"></i> Back
+    </a>
+</div>
+
+<div class="row">
+    @foreach (var machine in Model.WashingMachines)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card text-center">
+                <div class="card-body d-flex align-items-center">
+                    <!-- Icon Container -->
+                    <div class="d-flex align-items-center justify-content-center me-3" style="flex: 0 0 auto; height: 100%;">
+                        <img src="~/images/washing-machine.png" alt="Washing Machine Icon" class="img-fluid" style="max-height: 80px; max-width: 80px; height: auto; width: auto;">
+                    </div>
+                    <!-- Text and Form -->
+                    <div class="flex-grow-1">
+                        <h5 class="card-title">@machine.MachineName</h5>
+                        <form asp-action="SelectMachine" method="post">
+                            <input type="hidden" name="SelectedMachineId" value="@machine.MachineId" />
+                            <button type="submit" class="btn btn-primary">Select</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

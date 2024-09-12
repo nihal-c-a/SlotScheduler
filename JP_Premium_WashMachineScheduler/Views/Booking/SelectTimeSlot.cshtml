@@ -1,0 +1,73 @@
+﻿@model JP_Premium_WashMachineScheduler.Models.SelectTimeSlotViewModel
+
+@{
+    ViewData["Title"] = "Select Time Slot";
+
+    // Get the current date and time
+    var currentDate = DateTime.Now.Date;
+    var currentTime = DateTime.Now.TimeOfDay;
+}
+
+<h2>Select a Time Slot</h2>
+
+<!-- Back Button -->
+<form asp-action="SelectMachine">
+    <div class="mb-3">
+        <button type="submit" class="btn btn-dark">Back</button>
+    </div>
+</form>
+
+<form asp-action="SelectTimeSlot" method="post">
+    <input type="hidden" name="MachineId" value="@Model.MachineId" />
+    <input type="hidden" name="BookingDate" value="@Model.BookingDate.ToString("yyyy-MM-dd")" />
+
+    <div class="row">
+        @if (Model.TimeSlots != null && Model.TimeSlots.Any())
+        {
+            @foreach (var slot in Model.TimeSlots)
+            {
+                // Logic to filter out past time slots if the booking date is today
+                if (@Model.BookingDate.Date != currentDate || (@Model.BookingDate.Date == currentDate&& slot.Slot>currentTime))
+                {
+                    <div class="col-md-2 mb-3">
+                        <div class="card text-center @(slot.IsAvailable ? "bg-light" : "bg-secondary text-white")" style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <div class="card-body d-flex align-items-center">
+                                <!-- Icon Container -->
+                                <div class="d-flex align-items-center justify-content-center me-3" style="flex: 0 0 auto; height: 100%;">
+                                    <img src="~/images/clock.png" alt="Clock Icon" class="img-fluid" style="max-height: 40px; max-width: 40px; height: auto; width: auto;">
+                                </div>
+                                <!-- Time Slot Information -->
+                                <div class="flex-grow-1">
+                                    <h5 class="card-title">@slot.Slot.ToString(@"hh\:mm")</h5>
+                                    @if (slot.IsAvailable)
+                                    {
+                                        <form asp-action="SelectTimeSlot" method="post">
+                                            <input type="hidden" name="MachineId" value="@Model.MachineId" />
+                                            <input type="hidden" name="BookingDate" value="@Model.BookingDate.ToString("yyyy-MM-dd")" />
+                                            <input type="hidden" name="SelectedTimeSlot" value="@slot.Slot" />
+
+                                            <button type="submit" class="btn btn-primary"
+                                            @(User.Identity.IsAuthenticated && User.IsInRole("Tenant") ? "" : "disabled")>
+                                                Book
+                                            </button>
+                                            
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <a asp-action="BookingInfo" asp-route-machineId="@Model.MachineId" asp-route-datetime="@Model.BookingDate" asp-route-timeslot="@slot.Slot" class="btn btn-primary">View</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                   
+            }
+        }
+        else
+        {
+            <p>No available time slots.</p>
+        }
+    </div>
+</form>

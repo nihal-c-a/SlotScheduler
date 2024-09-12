@@ -1,0 +1,28 @@
+﻿@model IEnumerable<JP_Premium_WashMachineScheduler.Models.WashingMachine>
+
+@{
+    ViewData["Title"] = "Washing Machines";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between mb-4">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back</a>
+        <a href="@Url.Action("Create", "WashingMachine")" class="btn btn-primary">Add+</a>
+    </div>
+
+    <div class="row">
+        @foreach (var machine in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="~/Images/washing-machine.png" class="img-fluid" alt="Washing Machine Icon" style="max-width: 100px;">
+                        <h5 class="card-title mt-3">@machine.MachineName</h5>
+                        <a href="@Url.Action("Edit", "WashingMachine", new { id = machine.MachineId })" class="btn btn-outline-primary me-2">Edit</a>
+                        <a href="@Url.Action("Delete", "WashingMachine", new { id = machine.MachineId })" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

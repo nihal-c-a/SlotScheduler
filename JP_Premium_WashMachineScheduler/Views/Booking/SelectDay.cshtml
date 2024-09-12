@@ -1,0 +1,48 @@
+﻿@model JP_Premium_WashMachineScheduler.Models.SelectDayViewModel
+
+@{
+    ViewData["Title"] = "Select Day";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Flexbox Container for Buttons -->
+<div class="d-flex justify-content-between mb-4">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <!-- Back Button -->
+        <a href="@Url.Action("Index", "Home")" class="btn btn-dark">
+            <i class="bi bi-arrow-left"></i> Back
+        </a>
+    }
+
+        <!-- Today's Booking Button -->
+        <a href="@Url.Action("TodayBookings", "Booking")" class="btn btn-outline-primary">
+            <i class="bi bi-calendar-day"></i> Today's Booking
+        </a>
+    
+</div>
+
+<div class="row">
+    @foreach (var day in Model.UpcomingDays)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card text-center">
+                <div class="card-body d-flex align-items-center">
+                    <!-- Icon Container -->
+                    <div class="d-flex align-items-center justify-content-center me-3" style="flex: 0 0 auto; height: 100%;">
+                        <img src="~/images/days.png" alt="Days Icon" class="img-fluid" style="max-height: 80px; max-width: 80px; height: auto; width: auto;">
+                    </div>
+                    <!-- Text and Form -->
+                    <div class="flex-grow-1">
+                        <h5 class="card-title">@day.ToString("dddd, MMMM dd")</h5>
+                        <form asp-action="SelectDay" method="post">
+                            <input type="hidden" name="selectedDate" value="@day.ToString("yyyy-MM-dd")" />
+                            <button type="submit" class="btn btn-primary">Select</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

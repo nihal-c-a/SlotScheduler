@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Tenant Home";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- View My Bookings Card -->
+        <div class="col-md-12 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title"> My Bookings</h5>
+                    <p class="card-text">Check and manage your active and past bookings.</p>
+                    <a href="@Url.Action("ViewMyBookings", "Booking")" class="btn btn-primary">View </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Book a Slot Card -->
+        <div class="col-md-12 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Book a Slot</h5>
+                    <p class="card-text">Reserve a washing machine slot for a specific date and time.</p>
+                    <a href="@Url.Action("SelectDay", "Booking")" class="btn btn-primary">Book</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Today's Booking Card -->
+        <div class="col-md-12 mb-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Today's Booking</h5>
+                    <p class="card-text">View the details of your bookings for today.</p>
+                    <a href="@Url.Action("TodayBookings", "Booking")" class="btn btn-primary">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

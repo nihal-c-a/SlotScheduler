@@ -1,0 +1,676 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_JP_Premium_WashMachineScheduler_fc616c2e_a6a3_4f92_ae6e_ccefd8e0f476/True/SqlTable/dbo.Bookings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\services\\classes\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\services\\classes\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\booking\\todaybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\booking\\todaybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\services\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\booking\\selecttimeslot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\booking\\selecttimeslot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\services\\classes\\washingmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\services\\classes\\washingmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nihal.Basheer\\AppData\\Local\\Temp\\w4ygryzh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\booking\\bookinginfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\booking\\bookinginfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\viewmodel\\bookinginfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\viewmodel\\bookinginfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\services\\classes\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\services\\classes\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\booking\\selectday.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\booking\\selectday.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\services\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\services\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\booking\\selectmachine.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\booking\\selectmachine.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\services\\interfaces\\iwashingmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\services\\interfaces\\iwashingmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\controllers\\washingmachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\controllers\\washingmachinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\data\\migrations\\20240822165243_addingbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\data\\migrations\\20240822165243_addingbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_JP_Premium_WashMachineScheduler_fc616c2e_a6a3_4f92_ae6e_ccefd8e0f476/True/SqlTable/dbo.Tenants.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\models\\washingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\models\\washingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\washingmachine\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\washingmachine\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\washingmachine\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\washingmachine\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\washingmachine\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\washingmachine\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\washingmachine\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\washingmachine\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\tenant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\tenant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\tenant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\tenant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\tenant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\tenant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_JP_Premium_WashMachineScheduler_fc616c2e_a6a3_4f92_ae6e_ccefd8e0f476/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\viewmodel\\tenantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\viewmodel\\tenantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\tenant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\tenant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|c:\\users\\nihal.basheer\\onedrive - resmed corp\\documents\\mini project\\jp_premium_washmachinescheduler\\jp_premium_washmachinescheduler\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7837EC43-60FD-47B1-B86C-684B868048A1}|JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler.csproj|solutionrelative:jp_premium_washmachinescheduler\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nihal.Basheer\\AppData\\Local\\Temp\\w4ygryzh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nihal.Basheer\\AppData\\Local\\Temp\\w4ygryzh..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Bookings [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_JP_Premium_WashMachineScheduler_fc616c2e_a6a3_4f92_ae6e_ccefd8e0f476/True/SqlTable/dbo.Bookings.sql",
+              "ToolTip": "dbo.Bookings [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-23T07:54:05.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodayBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\TodayBookings.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Booking\\TodayBookings.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\TodayBookings.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Booking\\TodayBookings.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwB0AAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T07:35:05.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IBookingService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIAwwBAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T05:33:30.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Classes\\BookingService.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Services\\Classes\\BookingService.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Classes\\BookingService.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Services\\Classes\\BookingService.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAswEYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T04:20:22.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAnwCEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:39:16.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAA9wF0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T04:16:33.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SelectTimeSlot.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectTimeSlot.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectTimeSlot.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectTimeSlot.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectTimeSlot.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T05:23:54.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\ViewModel\\BookingInfoViewModel.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\ViewModel\\BookingInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\ViewModel\\BookingInfoViewModel.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\ViewModel\\BookingInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T04:56:57.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\AppData\\Local\\Temp\\w4ygryzh..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\w4ygryzh..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-23T07:05:53.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Program.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Program.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Program.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:14:38.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WashingMachineService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Classes\\WashingMachineService.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Services\\Classes\\WashingMachineService.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Classes\\WashingMachineService.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Services\\Classes\\WashingMachineService.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswEkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:44:21.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\BookingInfo.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Booking\\BookingInfo.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\BookingInfo.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Booking\\BookingInfo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T04:58:05.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Classes\\TenantService.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Services\\Classes\\TenantService.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Classes\\TenantService.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Services\\Classes\\TenantService.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAADwvwoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:15:57.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SelectDay.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectDay.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectDay.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectDay.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectDay.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T06:14:40.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITenantService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Interfaces\\ITenantService.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Services\\Interfaces\\ITenantService.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Interfaces\\ITenantService.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Services\\Interfaces\\ITenantService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:15:37.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\TenantController.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Controllers\\TenantController.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\TenantController.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Controllers\\TenantController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAADwv3IAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T04:22:34.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SelectMachine.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectMachine.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectMachine.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectMachine.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Booking\\SelectMachine.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T05:16:56.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IWashingMachineService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IWashingMachineService.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IWashingMachineService.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IWashingMachineService.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Services\\Interfaces\\IWashingMachineService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:52:49.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WashingMachineController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\WashingMachineController.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Controllers\\WashingMachineController.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\WashingMachineController.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Controllers\\WashingMachineController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwF4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:46:44.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240822165243_addingBooking.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Data\\Migrations\\20240822165243_addingBooking.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Data\\Migrations\\20240822165243_addingBooking.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Data\\Migrations\\20240822165243_addingBooking.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Data\\Migrations\\20240822165243_addingBooking.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:52:43.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.Tenants [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_JP_Premium_WashMachineScheduler_fc616c2e_a6a3_4f92_ae6e_ccefd8e0f476/True/SqlTable/dbo.Tenants.sql",
+              "ToolTip": "dbo.Tenants [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-22T12:06:54.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:46:16.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WashingMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Models\\WashingMachine.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Models\\WashingMachine.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Models\\WashingMachine.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Models\\WashingMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:42:48.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Models\\Booking.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:49:09.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Models\\Tenant.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Models\\Tenant.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Models\\Tenant.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Models\\Tenant.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T16:48:04.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Index.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Index.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:47:49.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Delete.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Delete.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:50:29.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Edit.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Edit.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:48:29.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Create.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Create.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\WashingMachine\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:48:10.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:51:34.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:33:20.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_JP_Premium_WashMachineScheduler_fc616c2e_a6a3_4f92_ae6e_ccefd8e0f476/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-21T16:24:22.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Delete.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Delete.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBwAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T17:24:20.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Edit.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Edit.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T12:12:03.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Details.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Details.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T10:39:17.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TenantViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\ViewModel\\TenantViewModel.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\ViewModel\\TenantViewModel.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\ViewModel\\TenantViewModel.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\ViewModel\\TenantViewModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:13:59.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Create.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Tenant\\Create.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Tenant\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T17:34:54.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T18:00:01.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T18:00:35.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "JP_Premium_WashMachineScheduler\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Nihal.Basheer\\OneDrive - ResMed Corp\\Documents\\Mini Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "JP_Premium_WashMachineScheduler\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAA2wH8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:36:16.088Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

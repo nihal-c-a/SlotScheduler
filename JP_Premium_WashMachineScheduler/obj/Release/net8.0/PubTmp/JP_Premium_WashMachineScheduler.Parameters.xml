@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="JPPremiumWashMachineScheduler20240823194109" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Nihal\.Basheer\\OneDrive\ -\ ResMed\ Corp\\Documents\\Mini\ Project\\JP_Premium_WashMachineScheduler\\JP_Premium_WashMachineScheduler\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,25 @@
+﻿@model JP_Premium_WashMachineScheduler.Models.WashingMachine
+
+@{
+    ViewData["Title"] = "Confirm Delete";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Confirm Delete</h1>
+
+    <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Are you sure you want to delete the following washing machine?</h4>
+        <div class="mb-3">
+            <h5 class="mb-1">@Model.MachineName</h5>
+           
+        </div>
+        <form method="post" asp-action="DeleteConfirmed">
+            <input type="hidden" name="id" value="@Model.MachineId" />
+            <div class="d-flex justify-content-between mt-4">
+                <a href="@Url.Action("Index", "WashingMachine")" class="btn btn-secondary">Cancel</a>
+                <button type="submit" class="btn btn-danger">Delete</button>
+                
+            </div>
+        </form>
+    </div>
+</div>

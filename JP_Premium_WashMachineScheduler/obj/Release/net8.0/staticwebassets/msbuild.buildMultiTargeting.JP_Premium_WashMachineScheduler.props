@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JP_Premium_WashMachineScheduler.props" />
+</Project>

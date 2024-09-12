@@ -1,0 +1,63 @@
+﻿@model IEnumerable<JP_Premium_WashMachineScheduler.Models.BookingInfoViewModel>
+
+@{
+    ViewData["Title"] = "Today's Bookings";
+}
+
+<div class="container mt-5">
+  
+
+    <h2>@ViewData["Title"]</h2>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="mb-4">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-dark">
+                <i class="bi bi-arrow-left"></i> Back
+            </a>
+        </div>
+      
+    }
+    else
+    {
+        <div class="mb-4">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-dark">
+                <i class="bi bi-arrow-left"></i> Back
+            </a>
+        </div>
+    }
+
+    @if (Model.Any())
+    {
+        var groupedBookings = Model.GroupBy(b => b.MachineName);
+
+        foreach (var group in groupedBookings)
+        {
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h4>@group.Key</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    @foreach (var booking in group)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <p><strong>Booked By:</strong> @booking.BookedBy</p>
+                                <p><strong>Time Slot:</strong> @booking.TimeSlot.ToString(@"hh\:mm")</p>
+                                <p><strong>Booking Date:</strong> @booking.dateTime.ToString("yyyy-MM-dd")</p>
+                            </div>
+                            <a class="btn btn-primary btn-sm" asp-action="BookingInfo" asp-route-MachineName="@booking.MachineName" asp-route-datetime="@booking.dateTime.ToString("yyyy-MM-dd")" asp-route-timeSlot="@booking.TimeSlot" asp-route-bookedBy="@booking.BookedBy">View</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No bookings for today.</p>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

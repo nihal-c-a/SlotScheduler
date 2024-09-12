@@ -1,0 +1,94 @@
+﻿@model IEnumerable<JP_Premium_WashMachineScheduler.Models.Tenant>
+
+@{
+    ViewData["Title"] = "Tenants";
+}
+
+<style>
+    /* Dark mode styling for this specific page */
+    .container {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .d-flex .btn-dark {
+        background-color: #333;
+        border-color: #333;
+    }
+
+        .d-flex .btn-dark:hover {
+            background-color: #444;
+            border-color: #444;
+        }
+
+    .btn-primary {
+        background-color: #3f51b5;
+        border-color: #3f51b5;
+    }
+
+        .btn-primary:hover {
+            background-color: #303f9f;
+            border-color: #303f9f;
+        }
+
+    .card {
+        background-color: #2c2c2c;
+        color: #e0e0e0;
+    }
+
+        .card .btn-outline-primary {
+            color: #e0e0e0;
+            border-color: #e0e0e0;
+        }
+
+            .card .btn-outline-primary:hover {
+                background-color: #333;
+                border-color: #e0e0e0;
+            }
+
+        .card .btn-danger {
+            color: #e0e0e0;
+            background-color: #f44336;
+            border-color: #f44336;
+        }
+
+            .card .btn-danger:hover {
+                background-color: #c62828;
+                border-color: #c62828;
+            }
+</style>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <a href="@Url.Action("Index", "Home")" class="btn btn-dark btn-sm">Back</a>
+    <h1 class="mb-0">Tenants</h1>
+    <a href="@Url.Action("Create", "Tenant")" class="btn btn-primary btn-sm">Add+</a>
+</div>
+
+<div class="container-fluid" style="max-height: 70vh; overflow-y: auto;">
+    <div class="row">
+        @foreach (var tenant in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+                <div class="card text-center shadow-sm" style="width: 100%; max-width: 18rem; min-height: contain;">
+                    <div class="card-body d-flex flex-column p-1">
+                        <div class="mb-2">
+                            <img src="~/images/DefaultProfile.png" class="rounded-circle mx-auto d-block" alt="Profile Picture" style="width: 80px; height: 80px; object-fit: cover;">
+                        </div>
+                        <h5 class="card-title mb-2">@tenant.Name</h5>
+                        <p class="card-text mb-1"><strong>Phone:</strong> @tenant.PhoneNumber</p>
+                        <p class="card-text mb-2"><strong>Room:</strong> @tenant.RoomNumber</p>
+                        <div class="mt-2">
+                            <div class="mt-auto">
+                                <a href="@Url.Action("Details", "Tenant", new { id = tenant.TenantId })" class="btn btn-outline-primary btn-sm">View</a>
+                                <a href="@Url.Action("Edit", "Tenant", new { id = tenant.TenantId })" class="btn btn-outline-primary btn-sm">Edit</a>
+                                <a href="@Url.Action("Delete", "Tenant", new { id = tenant.TenantId })" class="btn btn-danger btn-sm">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

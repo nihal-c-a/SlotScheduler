@@ -1,0 +1,25 @@
+﻿@model JP_Premium_WashMachineScheduler.Models.WashingMachine
+
+@{
+    ViewData["Title"] = "Edit Washing Machine";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Edit Washing Machine</h1>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="MachineId" />
+
+        <div class="mb-3">
+            <label asp-for="MachineName" class="form-label">Machine Name</label>
+            <input asp-for="MachineName" class="form-control" />
+            <div class="form-text text-danger" asp-validation-for="MachineName"></div>
+        </div>
+
+        <div class="mb-3">
+           
+            <a href="@Url.Action("Index", "WashingMachine")" class="btn btn-secondary ms-2">Cancel</a>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+        </div>
+    </form>
+</div>
